@@ -234,3 +234,111 @@
       .dot-3{
         right:7vw;
       }
+      .section5{
+        width:100%;
+        height:110vh;
+        background-color: rgb(250, 250, 250);
+      }
+      .part1{
+        display: flex;
+        justify-content: center;
+      }
+      .part1>div{
+        width:40%;
+        background-color: transparent;
+        height:25vh;
+        margin:2px;
+      }
+      .part1>div:nth-child(2){
+        display: flex;
+        justify-content:end;
+        align-items: end;
+      }
+      .deal-1{
+        width:25%;
+        height:40px;
+        background-color: black;
+        color:white;
+        margin:8px;
+        border-radius: 5px;
+        text-align: center;
+        align-content: center;
+        padding: 2px;
+      }
+      .part1>div:nth-child(2)>div:nth-child(1){
+        background-color: orangered;
+      }
+      .part1>div:first-child>p{
+        color:orangered;
+        font-weight: bold;
+      }
+      .part2{
+        display:flex;
+        background-color: transparent;
+        height:75%;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .part2>div:first-child{
+        width:20%;
+        height:70%;
+        background-color: white;
+        box-shadow: 0px 0px 12px 2px rgb(212, 207, 207);
+        border-radius: 10px;
+        margin-left:5vw;
+      }
+      .part2>div:nth-child(2){
+        width:30%;
+        margin-top: 29px;
+        height:75%;
+        background-color: pink;
+        
+      }
+      .part2>div:nth-child(2)>img{
+        box-sizing: border-box;
+        width:100%;
+        height:100%;
+      }
+      .part2>div:last-child{
+        width:20%;
+        height:70%;
+        background-color: transparent;
+      }
+      .part2>div>div{
+        width:100%;
+        height:70px;
+        border-bottom: 0.1px solid rgb(230, 225, 225);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .part2>div:last-child>div{
+        background-color: black;
+        width:60%;
+        color: white;
+        height:30px;
+        border-radius: 20px;
+        border-bottom: 0;
+        padding-right: 5px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .part2>div:last-child>div>div{
+        background-color: orangered;
+        width:31px;
+        height:31px;
+        border-radius: 19px;
+        text-align: center;
+        align-content: center;
+        
+      }
+      .part2>div:last-child>div>p{
+        font-size: small;
+        margin-right: 15px;
+      }
+      .part2>div:last-child>p:first-child{
+        font-weight: bold;
+      }
+
+      
+      

@@ -339,6 +339,85 @@
       .part2>div:last-child>p:first-child{
         font-weight: bold;
       }
+      .section6{
+        width:100%;
+        height:150vh;
+        background-color: red;
+      }
+      .stage1{
+        width:100%;
+        height:40vh;
+        background-color: white;
+        text-align: center;
+        padding-top: 10px;
+      }
+      .stage1>p{
+        color:orangered;
+        font-weight:bold;
+      }
 
+      .stage2{
+        background-color: rgb(255, 255, 255);
+        width:100%;
+        height:100%;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        padding: 0px 200px 0px 200px;
+        box-sizing: border-box;
+        gap:30px;
+        
+      }
+      .cards{
+        background-color: rgb(243, 240, 240);
+        margin:1px;
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .cards>div:nth-child(2){
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        height:40px;
+        
+      }
+      .cards>div:nth-child(2)>p{
+        background-color: rgb(255, 219, 142);
+        font-size: small;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: small;
+      }
+      .cards>div:nth-child(2)>h4{
+        color: orangered;
+      }
+      .cards>img{
+        width:100%;
+        border-radius: 5px;
+      }
+      .cards>div:nth-child(4),.cards>div:nth-child(5){
+        display: flex;
+        gap:10px;
+        margin:0;
+        font-size: 15px;
+        height:30px;
+        
+      }
+      .cards>h4{
+        height:5px
+      }
+      .cards>div:nth-child(8)>p{
+        background-color: black;
+        color:white;
+        text-align: center;
+        width:50%;
+        border-radius: 12px;
+      }
+      .cards>div:nth-child(8){
+        display: flex;
+        justify-content: center;
+      }
+
+      
       
       

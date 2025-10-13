@@ -1,0 +1,209 @@
+body {
+        margin: 0;
+        font-family:Poppins;
+        box-sizing: border-box;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        border-bottom: 0.5px solid rgb(199, 196, 196);
+      }
+      header > section {
+        background-color: orange;
+        width: 40%;
+        margin: 0px;
+        display: flex;
+        align-content: flex-end;
+      }
+      .logo-nav{
+        display: flex;
+        justify-content: flex-start;
+        background-color: red;
+        padding: 5px;
+        width:50%;
+      }
+      .logo-nav>div>img{
+        width:10%;
+        background-color: green;
+       
+      }
+      header>section:nth-child(1)>div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      
+      header>section>div>img{
+        width:25px;
+        height:20px;
+        padding: 5px;
+      }
+      section > div {
+        background-color: white;
+        display: inline;
+        width: 100%;
+        height: 100%;
+      }
+     
+      nav {
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        top:0;
+        z-index:2;
+        background-color: white;
+        box-shadow: 0px 12px 12px 1px rgba(214, 213, 213, 0.185);
+      }
+      nav > div {
+        width: 40%;
+      }
+      .nav-div-2 {
+        display: flex;
+        background-color: white;
+        justify-content: space-around;
+        width: 55%;
+      }
+      .nav-div-2 > a {
+        background-color: white;
+        align-content: center;
+        margin: 2px;
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        font-size: medium;
+      }
+      .nav-div-2>div:last-child{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        height:20px;
+        color:white;
+        margin-top:19px;
+        padding: 10px;
+        border-radius: 30px;
+      }
+      .nav-div-2>div:last-child>div>i{
+        background-color: orangered;
+        color:white;
+        width:30px;
+        text-align: center;
+        align-content: center;
+        height:30px;
+        border-radius: 50%;
+        
+      }
+      .nav-div-1 {
+        width: 20%;
+      }
+      .nav-div-1 > h2 {
+        letter-spacing: 0.5vw;
+      }
+      .nav-div-2 > a:hover {
+        color: orangered;
+        cursor: pointer;
+      }
+      .section1-background {
+        width: 100%;
+        height: 90vh;
+        background-color: red;
+        background: url(./images/banner-01.jpg);
+      }
+      .contact-1{
+        background-image:url(./images/page-heading-bg.jpg);
+        width:100%;
+        height:300px;
+        text-align: center;
+        align-content: center;
+        color:white;
+      }
+      .contact-1>p{
+        color:orangered;
+        font-weight: bold;
+      }
+      .contact-2{
+        display:flex;
+        background-color: white;
+        width:100%;
+        justify-content: space-evenly;
+        height:600px;
+      }
+      .contact-2>div{
+        background-color: white;
+        width:40%;
+        margin: 40px;
+      }
+      .contact-2>div>div{
+        display: flex;
+        background-color: white;
+        width:50%;
+        padding: 8px;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0px 0px 12px 2px rgb(192, 191, 191);
+      }
+      .contact-2>div>div>img{
+        width:40px;
+        height: 40px;
+        margin-right: 5px;
+      }
+      .contact-2>div>p:first-child{
+        color: orangered;
+        font-weight: bold;
+      }
+      form{
+        background-color: white;
+        width:80%;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top:20px;
+        box-shadow: 0px 0px 6px 1px rgb(206, 206, 206);
+      }
+      form>input{
+        width:100%;
+        border-radius: 50px;
+        height:30px;
+        border: none;
+        margin-top:5px;
+        margin-bottom: 10px;
+        background-color: rgb(247, 244, 244);
+        padding-left: 5px;
+        
+      }
+      form>textarea{
+        border-radius: 20px;
+        width:100%;
+        height:100px;
+        padding-left: 10px;
+        padding-top: 10px;
+        background-color:rgb(247, 244, 244) ;
+      }
+      form>button{
+        color:white;
+        background-color: black;
+        border: none;
+        padding: 10px;
+        margin-top:15px;
+        border-radius: 20px;
+      }
+      .contact-3{
+        width:100%;
+        text-align: center;
+        height: 600px;
+      }
+      iframe{
+        width:90%;
+        margin-left: 10px;
+        border-radius: 8px;
+      }
+      footer{
+        background-color: black;
+        color:white;
+        height:10vh;
+        text-align: center;
+        align-content: center;
+      }
